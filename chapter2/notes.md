@@ -20,6 +20,21 @@
 | long double         | `long double myLongDouble;`     | 80 or 128   |                                                     |
 | size_t              | `size_t mySize;`                | 32 or 64    |                                                     |
 
+## Predefined Integer Types and Sizes
+
+| Type                   | Declaration                       | Bit Size    | Range                                               |
+| ---------------------- | --------------------------------- | ----------- | --------------------------------------------------- |
+| int8_t                 | `int8_t myInt8;`                  | 8           | -128 to 127 (signed), 0 to 255 (unsigned)            |
+| uint8_t                | `uint8_t myUInt8;`                | 8           | 0 to 255 (unsigned)                                 |
+| int16_t                | `int16_t myInt16;`                | 16          | -32,768 to 32,767 (signed), 0 to 65,535 (unsigned)  |
+| uint16_t               | `uint16_t myUInt16;`              | 16          | 0 to 65,535 (unsigned)                              |
+| int32_t                | `int32_t myInt32;`                | 32          | -2,147,483,648 to 2,147,483,647 (signed)             |
+| uint32_t               | `uint32_t myUInt32;`              | 32          | 0 to 4,294,967,295 (unsigned)                       |
+| int64_t                | `int64_t myInt64;`                | 64          | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (signed) |
+| uint64_t               | `uint64_t myUInt64;`              | 64          | 0 to 18,446,744,073,709,551,615 (unsigned)          |
+
+!!You need to include the `<stdint.h>` to use the int types.
+
 ### Integer Types
 
 | Specifier | Output                         | Example  |

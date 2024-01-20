@@ -12,3 +12,6 @@ Thumbs.db
 
 # Ignore example build directories
 /**/_example/out/*
+
+# Ignore VS Code shit
+.vscode

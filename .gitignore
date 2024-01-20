@@ -1,0 +1,14 @@
+# Ignore compiled files and build directories
+*.o
+/out/
+/chapter*/out/*
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore main executables in each chapter
+/chapter*/_example/out/*
+
+# Ignore example build directories
+/**/_example/out/*

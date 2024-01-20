@@ -2,6 +2,24 @@
 
 ## Data Types
 
+### Data Types, Declarations, and Bit Sizes
+
+| Data Type           | Declaration                     | Bit Size    | Range                                               |
+| ------------------- | ------------------------------- | ----------- | --------------------------------------------------- |
+| char                | `char myChar;`                  | 8           | -128 to 127 (signed), 0 to 255 (unsigned)            |
+| char[]              | `char myString[10];`            | Varies      |                                                     |
+| short               | `short myShort;`                | 16          | -32,768 to 32,767 (signed), 0 to 65,535 (unsigned)  |
+| int                 | `int myInt;`                    | 32          | -2,147,483,648 to 2,147,483,647 (signed)             |
+| unsigned int        | `unsigned int myUnsignedInt;`   | 32          | 0 to 4,294,967,295 (unsigned)                       |
+| long                | `long myLong;`                  | 32 or 64    | -2,147,483,648 to 2,147,483,647 (signed)            |
+| unsigned long       | `unsigned long myUnsignedLong;` | 32 or 64    | 0 to 4,294,967,295 (unsigned)                      |
+| long long           | `long long myLongLong;`         | 64          | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (signed) |
+| unsigned long long  | `unsigned long long myUnsignedLongLong;` | 64      | 0 to 18,446,744,073,709,551,615 (unsigned)          |
+| float               | `float myFloat;`                | 32          |                                                     |
+| double              | `double myDouble;`              | 64          |                                                     |
+| long double         | `long double myLongDouble;`     | 80 or 128   |                                                     |
+| size_t              | `size_t mySize;`                | 32 or 64    |                                                     |
+
 ### Integer Types
 
 | Specifier | Output                         | Example  |
@@ -52,7 +70,15 @@ The number of characters written so far is stored in the pointed location.
 
 ---
 
-## Basic Syntax
+### Input with scanf and the '&' symbol
+
+When using `scanf` to input values, use the `&` symbol before the variable to store the entered value at the address of the variable.
+
+```c
+int age;
+printf("Enter your age: ");
+scanf("%d", &age);
+```
 
 ### Declarations and Assignments
 

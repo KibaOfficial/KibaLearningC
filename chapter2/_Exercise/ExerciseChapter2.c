@@ -8,14 +8,14 @@
 
 int main()
 {
-    uint64_t age;
-    uint64_t days;
-    uint64_t hours;
-    uint64_t minutes;
-    uint64_t seconds;
+    uint32_t age;
+    uint32_t days;
+    uint32_t hours;
+    uint32_t minutes;
+    uint32_t seconds;
 
     printf("Enter your age in years: ");
-    scanf("%llu", &age);
+    scanf("%lu", &age);
 
     days = age * 365ul;
     hours = days * 24ul;
@@ -23,10 +23,10 @@ int main()
     seconds = minutes * 60ul;
     
     
-    printf("You are living since %llu days\n", days);
-    printf("You are living since %llu hours\n", hours);
-    printf("You are living since %llu minutes\n", minutes);
-    printf("You are living since %llu seconds\n", seconds);
+    printf("You are living since %lu days\n", days);
+    printf("You are living since %lu hours\n", hours);
+    printf("You are living since %lu minutes\n", minutes);
+    printf("You are living since %lu seconds\n", seconds);
 
 
     return 0;

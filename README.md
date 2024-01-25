@@ -10,12 +10,10 @@ you can find in every chapter (besides chapter1) a notes.md file where you can f
 
 To deploy this project run
 
-```bash
-  just use any c compiler like gcc or clang
-```
-
 Example:
 
 ```bash
-  gcc main.c -o out/main
+  cd chapter
+  make
+  ./out/your-executable
 ```

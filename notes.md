@@ -95,9 +95,29 @@ printf("Enter your age: ");
 scanf("%d", &age);
 ```
 
-### Declarations and Assignments
+## Declarations and Assignments
 
 ```c
 int number = 42;
 float pi = 3.14;
 char letter = 'A';
+```
+
+## Control Flow
+
+### Switch Statement
+
+Das `switch`-Statement ermöglicht es, einen Ausdruck mit verschiedenen Werten zu vergleichen und je nach Wert verschiedene Codeblöcke auszuführen. Hier ist die grundlegende Syntax:
+
+```c
+switch (expression) {
+    case constant1:
+        // Code block für constant1
+        break;
+    case constant2:
+        // Code block für constant2
+        break;
+    // Weitere case-Anweisungen nach Bedarf
+    default:
+        // Code block, der ausgeführt wird, wenn kein case zutrifft
+}

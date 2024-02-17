@@ -107,7 +107,7 @@ char letter = 'A';
 
 ### Switch Statement
 
-Das `switch`-Statement ermöglicht es, einen Ausdruck mit verschiedenen Werten zu vergleichen und je nach Wert verschiedene Codeblöcke auszuführen. Hier ist die grundlegende Syntax:
+The `switch` statement makes it possible to compare an expression with different values and to execute different blocks of code depending on the value. Here is the basic syntax:
 
 ```c
 switch (expression) {

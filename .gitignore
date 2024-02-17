@@ -15,9 +15,12 @@ Thumbs.db
 
 # Ignore Exercise build directorys
 /chapter*/_Exercise/out/*
+chapter*/_Excercise/Exercise/out/*
 
 # Ignore VS Code shit
 .vscode
 
 # Ignore my notes folder
 Notes/
+
+temp/
